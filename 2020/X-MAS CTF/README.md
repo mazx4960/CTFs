@@ -17,3 +17,4 @@
 
 ## Other writeups
 * https://ctftime.org/event/1209/tasks/
+* https://github.com/Seraphin-/ctf/tree/master/xmas2020
