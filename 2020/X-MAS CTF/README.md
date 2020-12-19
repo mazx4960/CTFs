@@ -10,6 +10,7 @@
 - [x] [Biggest Lowest](programming/biggest%20lowest)
 - [x] [Least Greatest](programming/least%20greatest)
 - [x] [Many Paths](programming/many%20paths)
+- [ ] [Slowest Fastest](programming/slowest%20fastest)
 
 ### [Reverse](reverse/)
 - [x] [FORMULA TRANSLATION NOVICE](reverse/formula%20translation%20novice)
