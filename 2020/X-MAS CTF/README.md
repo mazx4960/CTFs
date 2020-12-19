@@ -20,3 +20,5 @@
 * https://ctftime.org/event/1209/tasks/
 * https://github.com/Seraphin-/ctf/tree/master/xmas2020
 * https://github.com/qxxxb/ctf/tree/master/2020/xmas_ctf
+* https://archercreat.github.io/2020/12/19/vault/
+* https://archercreat.github.io/2020/12/19/ransomware/
