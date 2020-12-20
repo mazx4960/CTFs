@@ -1,4 +1,4 @@
-# Title
+# {title}
 
 > Points: FinalPoints [OriginalPoints]
 
@@ -12,4 +12,4 @@
 ## Solution
 
 ## Flag
-`ctf{}`
+``
