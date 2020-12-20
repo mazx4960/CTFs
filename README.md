@@ -31,6 +31,7 @@
 |                         | ⭐ [jd-gui online](http://www.javadecompilers.com/apk) | Android apk decompiler (Personal favourite)
 |                         | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
 |                         | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
+|                         | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
 | **Forensics** | ⭐ Detect it easy | Determine file type (Windows)
 |               | file | Determine file type (Linux command)
 |               | ⭐ Wireshark | Network packets analyzer
