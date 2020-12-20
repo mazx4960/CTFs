@@ -1,6 +1,23 @@
 <h1 align="center">CTF Write-Ups</h1>
 <h6 align="center"><i>My CTF journey since 2020</i></h6>
 
+## Upcoming CTFs
+| CTF | Period | 
+| :-: | :----: |
+| Plaid CTF | April |
+| Midnight Sun CTF | April |
+| DEFCON CTF | May |
+| 0CTF | June |
+| HSCTF | June |
+| Google CTF | ~August |
+| Flare-On CTF | ~September |
+| DownUnder CTF | ~September |
+| ALLES! CTF | ~September |
+| Hitcon CTF | October-November |
+| Dragon CTF | November |
+| X-MAS CTF | December |
+
+
 ## Tools used
 **Set up:**
 * Flare VM
