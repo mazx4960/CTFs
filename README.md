@@ -28,6 +28,7 @@
 |                         | gdb | debugging stuff
 | **Web** | sqlmap    | SQL injection 
 |         | dirbuster | Enumerate Directories
+|         | [jwt_tool](https://github.com/ticarpi/jwt_tool) | forging jwt 
 
 More cool tools:
 * https://github.com/zardus/ctf-tools
