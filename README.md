@@ -10,12 +10,12 @@
 | 0CTF | June |
 | HSCTF | June |
 | Google CTF | ~August |
-| Flare-On CTF | ~September |
+| ⭐ Flare-On CTF | ~September |
 | DownUnder CTF | ~September |
 | ALLES! CTF | ~September |
 | Hitcon CTF | October-November |
 | Dragon CTF | November |
-| X-MAS CTF | December |
+| ⭐ X-MAS CTF | December |
 
 
 ## Tools used
