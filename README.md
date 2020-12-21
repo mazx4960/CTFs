@@ -50,6 +50,7 @@
 | **Web** | sqlmap    | SQL injection 
 |         | dirbuster | Enumerate Directories
 |         | [jwt_tool](https://github.com/ticarpi/jwt_tool) | forging jwt 
+| **Cloud** | [s3 finder](https://github.com/0xbharath/slurp) | Finding public S3 buckets
 
 More cool tools:
 * https://github.com/zardus/ctf-tools
