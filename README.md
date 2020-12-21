@@ -42,6 +42,7 @@
 | **Miscellaneous** | ⭐ [stegseek](https://github.com/RickdeJager/stegseek) | Steghide cracker
 |                   | ⭐ [zsteg](https://github.com/zed-0xff/zsteg) | `zsteg -a` Hail mary on stego file
 |                   | ⭐ [z3](https://github.com/Z3Prover/z3) | Theorem prover
+|                   | ⭐ [pytesseract](https://pypi.org/project/pytesseract/) | Python wrapper for google tesseract OCR engine 
 | **OSINT** | ⭐ [sherlock](https://github.com/sherlock-project/sherlock) | finding social media handles
 |           | ⭐ [wayback machine](https://archive.org/web/) | Finding deleted tweets and stuff
 | **Binary Exploitation** | ⭐ [pwntools](https://github.com/Gallopsled/pwntools) | Scripting
