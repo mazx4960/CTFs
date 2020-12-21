@@ -32,6 +32,7 @@
 |                         | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
 |                         | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
 |                         | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
+|                         | [dll_to_exe](https://github.com/hasherezade/dll_to_exe) | convert dlls to executables to pop into ida
 | **Forensics** | ⭐ Detect it easy | Determine file type (Windows)
 |               | file | Determine file type (Linux command)
 |               | ⭐ Wireshark | Network packets analyzer
