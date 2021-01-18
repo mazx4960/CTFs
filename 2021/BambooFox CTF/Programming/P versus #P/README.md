@@ -4,8 +4,6 @@
 
 ## Description
 
-> ====================================================================================================
-> 
 > Welcome to the BambooFox CTF interactive online judge system v0.1!
 > 
 > In this challenge, you have to solve a problem with 32 test cases in total.
@@ -21,18 +19,13 @@
 > 
 > Which version do you want to solve? (EASY or EXCRUCIATING)
 > 
-> ====================================================================================================
-> 
 > OK, here is the EXCRUCIATING problem.
 > 
 > A 'domino tile' is a 1x2 rectangle that can cover two adjacent cells on the
 > grid. Each domino tile can be either horizontal or vertical. For example, in
 > the grid below, you can cover two cells of the same number with a domino tile:
 > 
-> ------
-> -11-2-
-> ----2-
-> ------
+> ```------\n-11-2-\n----2-\n------```
 > 
 > In this problem, you will be given an integer n (2 <= n <= 50) and an n*n grid
 > Each grid cell contains one character: '#' or '-'. A "valid configuration" is a
