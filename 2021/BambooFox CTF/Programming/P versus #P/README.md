@@ -24,10 +24,15 @@
 > A 'domino tile' is a 1x2 rectangle that can cover two adjacent cells on the
 > grid. Each domino tile can be either horizontal or vertical. For example, in
 > the grid below, you can cover two cells of the same number with a domino tile:
-> 
-> ```------\n-11-2-\n----2-\n------```
-> 
+```
+------
+-11-2-
+----2-
+------
+```
+
 > In this problem, you will be given an integer n (2 <= n <= 50) and an n*n grid
+
 > Each grid cell contains one character: '#' or '-'. A "valid configuration" is a
 > way of placing dominoes on the grid, such that each domino tile covers two '#'
 > characters, and each '#' is covered by exactly one domino.
@@ -35,25 +40,32 @@
 > Given the grid, your task is to count the number of valid configurations.
 > 
 > An example input is:
-> 4
-> ##-#
-> ##-#
-> ###-
-> #---
-> 
+
+```
+4
+##-#
+##-#
+###-
+#---
+```
+
 > The answer is 2, and all valid configurations are
-> 11-3           12-3
-> 22-3           12-3
-> 455-    and    455-
-> 4---           4---
+```
+11-3           12-3
+22-3           12-3
+455-    and    455-
+4---           4---
+```
 > where each domino tile covers two cells with the same number.
 > 
 > Another example input is:
-> 3
-> #--
-> ##-
-> -##
-> 
+```
+3
+#--
+##-
+-##
+```
+
 > The answer is 0. There are an odd number of '#'s to cover, and since each domino
 > tile covers exactly two cells, no valid configuration exists.
 
