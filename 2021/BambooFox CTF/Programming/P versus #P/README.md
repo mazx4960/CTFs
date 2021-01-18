@@ -32,7 +32,6 @@
 ```
 
 > In this problem, you will be given an integer n (2 <= n <= 50) and an n*n grid
-
 > Each grid cell contains one character: '#' or '-'. A "valid configuration" is a
 > way of placing dominoes on the grid, such that each domino tile covers two '#'
 > characters, and each '#' is covered by exactly one domino.
@@ -40,7 +39,6 @@
 > Given the grid, your task is to count the number of valid configurations.
 > 
 > An example input is:
-
 ```
 4
 ##-#
@@ -48,7 +46,6 @@
 ###-
 #---
 ```
-
 > The answer is 2, and all valid configurations are
 ```
 11-3           12-3
@@ -65,7 +62,6 @@
 ##-
 -##
 ```
-
 > The answer is 0. There are an odd number of '#'s to cover, and since each domino
 > tile covers exactly two cells, no valid configuration exists.
 
