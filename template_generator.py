@@ -59,7 +59,7 @@ def display_menu(options):
 	print()
 
 
-def init_chall_files(categories):
+def init_chall_files(solved_cats, event_dir):
 	challenge_dict = {}
 	for cat in solved_cats:
 		challenge_dict.setdefault(cat, [])
@@ -70,13 +70,14 @@ def init_chall_files(categories):
 			challenge_dict[cat].append(name)
 			name = input('')
 
+	challenges = ''
 	for cat in solved_cats:
-	challenges += CAT_HEADER.format(cat, quote(cat)) + '\n'
-	for name in challenge_dict[cat]:
-		chall_dir = os.path.join(event_dir, cat, name)
-		create_dir(chall_dir)
-		create_readme(chall_dir, CHALLENGE_TEMPLATE_FILE, {'title': name})
-		challenges += CHALL_BULLETS.format(name, quote(cat), quote(name)) + '\n'
+		challenges += CAT_HEADER.format(cat, quote(cat)) + '\n'
+		for name in challenge_dict[cat]:
+			chall_dir = os.path.join(event_dir, cat, name)
+			create_dir(chall_dir)
+			create_readme(chall_dir, CHALLENGE_TEMPLATE_FILE, {'title': name})
+			challenges += CHALL_BULLETS.format(name, quote(cat), quote(name)) + '\n'
 
 	return challenges
 
@@ -99,7 +100,7 @@ def main():
 
 	init_chals = input("Would you like to initialise challenges? [n] ").lower() == 'y'
 	if init_chals:
-		challenges = init_chall_files(solved_cats)
+		challenges = init_chall_files(solved_cats, event_dir)
 	else:
 		challenges = '\n\n'.join([CAT_HEADER.format(cat, quote(cat)) for cat in solved_cats])
 
