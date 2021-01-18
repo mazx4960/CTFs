@@ -32,6 +32,7 @@
 |                         | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
 |                         | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
 |                         | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
+|                         | [dll_to_exe](https://github.com/hasherezade/dll_to_exe) | convert dlls to executables to pop into ida
 | **Forensics** | ⭐ Detect it easy | Determine file type (Windows)
 |               | file | Determine file type (Linux command)
 |               | ⭐ Wireshark | Network packets analyzer
@@ -42,6 +43,7 @@
 | **Miscellaneous** | ⭐ [stegseek](https://github.com/RickdeJager/stegseek) | Steghide cracker
 |                   | ⭐ [zsteg](https://github.com/zed-0xff/zsteg) | `zsteg -a` Hail mary on stego file
 |                   | ⭐ [z3](https://github.com/Z3Prover/z3) | Theorem prover
+|                   | ⭐ [pytesseract](https://pypi.org/project/pytesseract/) | Python wrapper for google tesseract OCR engine 
 | **OSINT** | ⭐ [sherlock](https://github.com/sherlock-project/sherlock) | finding social media handles
 |           | ⭐ [wayback machine](https://archive.org/web/) | Finding deleted tweets and stuff
 | **Binary Exploitation** | ⭐ [pwntools](https://github.com/Gallopsled/pwntools) | Scripting
@@ -49,6 +51,7 @@
 | **Web** | sqlmap    | SQL injection 
 |         | dirbuster | Enumerate Directories
 |         | [jwt_tool](https://github.com/ticarpi/jwt_tool) | forging jwt 
+| **Cloud** | [slurp](https://github.com/0xbharath/slurp) | Finding public S3 buckets
 
 More cool tools:
 * https://github.com/zardus/ctf-tools
