@@ -70,12 +70,15 @@
 I worked on this problem for half a day but still did not manage to solve it in the end :(
 
 **Idea 1**
+
 I first tried the naive method of brute forcing all possible ways to place the dominos using the back tracking algorithm. *See Easy_Solver*
 
 **Idea 2**
+
 I realised the problem set could be simplified since there would be some pieces where there would only be one possible way to place the domino. *See Easy_Solver.simplify_grid*
 
 **Idea 3**
+
 After spending close to 3 hours working on the problem so far, I realised the domino placing could be modeled using a hamilton path. *See Ex_Solver.hamilton*
 1. The original problem space would first be mapped to a graph
 2. Decompose the graph into its respective component graph such that all the component graphs are connected.
@@ -87,6 +90,7 @@ Problems:
 * Still too slow
 
 **Idea 4**
+
 Use the FKT algorithm. Did not manage to finish this.
 > The FKT algorithm, named after Fisher, Kasteleyn, and Temperley, counts the number of perfect matchings in a planar graph in polynomial time. 
 > This same task is #P-complete for general graphs. For matchings that are not required to be perfect, counting them remains #P-complete even for planar graphs. 
