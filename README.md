@@ -29,6 +29,7 @@
 |                         | Ghidra | Decompiler
 |                         | [apk tool](https://ibotpeaches.github.io/Apktool/) | Android apk decompiler (working with smali files)
 |                         | ⭐ [jd-gui online](http://www.javadecompilers.com/apk) | Android apk decompiler (Personal favourite)
+|                         | ⭐ [dex2jar]() | Extract the apk file, d2j-dex2jar app.apk (kali)
 |                         | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
 |                         | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
 |                         | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
