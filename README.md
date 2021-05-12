@@ -30,6 +30,7 @@
 |                         | Code Analysis | ⭐ ida pro | Decompiler
 |                         | Code Analysis | Ghidra | Decompiler
 |                         | Code Analysis | x64dbg | Debugger
+|                         | Code Analysis | [Barf](https://github.com/programa-stic/barf-project) | Binary analysis and reverse engineering framework for python
 |                         | Static Analysis | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
 |                         | Executables | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
 |                         | Executables | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
