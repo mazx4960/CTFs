@@ -23,24 +23,37 @@
 * Flare VM
 * Kali linux
 
-| Category | Tool | Description |
-| :------- | :--- | :---------- |
-| **Reverse Engineering** | ⭐ ida pro | Decompiler
-|                         | Ghidra | Decompiler
-|                         | [apk tool](https://ibotpeaches.github.io/Apktool/) | Android apk decompiler (working with smali files)
-|                         | ⭐ [jd-gui online](http://www.javadecompilers.com/apk) | Android apk decompiler (Personal favourite)
-|                         | ⭐ [dex2jar]() | Extract the apk file, d2j-dex2jar app.apk (kali)
-|                         | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
-|                         | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
-|                         | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
-|                         | [dll_to_exe](https://github.com/hasherezade/dll_to_exe) | convert dlls to executables to pop into ida
-| **Forensics** | ⭐ Detect it easy | Determine file type (Windows)
-|               | file | Determine file type (Linux command)
-|               | ⭐ Wireshark | Network packets analyzer
-|               | binwalk | Analyse hidden
-|               | ⭐ [olevba](https://github.com/decalage2/oletools/tree/master/oletools) | Extract macros from office files
-|               | [pkcrack](https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html) | Cracking zip files
-|               | [volatility](https://github.com/volatilityfoundation/volatility) | Memory Analysis
+| Category | Sub Category | Tool | Description |
+| :------- | :----------- | :--- | :---------- |
+| **Reverse Engineering** | Tool kit | Remnux | VM with most of the malware analysis tools
+|                         | Tool kit | Flare | VM with most of the malwre analysis tools
+|                         | Code Analysis | ⭐ ida pro | Decompiler
+|                         | Code Analysis | Ghidra | Decompiler
+|                         | Code Analysis | x64dbg | Debugger
+|                         | Static Analysis | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
+|                         | Executables | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
+|                         | Executables | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
+|                         | Executables | [dll_to_exe](https://github.com/hasherezade/dll_to_exe) | convert dlls to executables to pop into ida
+|                         | Mobile | [apk tool](https://ibotpeaches.github.io/Apktool/) | Android apk decompiler (working with smali files)
+|                         | Mobile | ⭐ [jd-gui online](http://www.javadecompilers.com/apk) | Android apk decompiler (Personal favourite)
+|                         | Mobile | ⭐ [dex2jar]() | Extract the apk file, d2j-dex2jar app.apk (kali)
+| **Forensics** | Executables | ⭐ Detect it easy | Determine file type (Windows)
+|               | Executables | file | Determine file type (Linux command)
+|               | Shellcode Analysis | [scDbg](http://sandsprite.com/blogs/index.php?uid=7&pid=152) | Analyse shellcode
+|               | Network | ⭐ Wireshark | Network packets analyzer
+|               | Network | ⭐ Fiddler/ Burp | Network interceptor
+|               | Web | [SpiderMonkey](https://spidermonkey.dev/) | Javascript interpreter 
+|               | Web | [cscripts](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cscript) | Run javascript code in the commandline
+|               | Web | [V8](https://v8.dev/) | Javascript engine 
+|               | binwalk | Analyse hidden files
+|               | PDF | Foxit Reader | For dynamically analyzing pdf files, and looking at the behaviour of the pdf
+|               | PDF | [pdfid.py](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdfid.py) | To view the pdf structure and other static analysis
+|               | PDF | [pdf-parser.py](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdf-parser.py) | To examine pdf objects
+|               | PDF | [peepdf.py](https://github.com/jesparza/peepdf) | To analyse the pdf file
+|               | Office | ⭐ [olevba](https://github.com/decalage2/oletools/tree/master/oletools) | Extract macros from office files
+|               | Office | ⭐ pcodedmp | For analysing office files that are vba stomped
+|               | Zip files | [pkcrack](https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack.html) | Cracking zip files
+|               | Memory | [volatility](https://github.com/volatilityfoundation/volatility) | Memory Analysis
 | **Miscellaneous** | ⭐ [stegseek](https://github.com/RickdeJager/stegseek) | Steghide cracker
 |                   | ⭐ [zsteg](https://github.com/zed-0xff/zsteg) | `zsteg -a` Hail mary on stego file
 |                   | ⭐ [z3](https://github.com/Z3Prover/z3) | Theorem prover
