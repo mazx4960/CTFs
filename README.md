@@ -32,6 +32,8 @@
 |                         | Code Analysis | x64dbg | Debugger
 |                         | Code Analysis | [Barf](https://github.com/programa-stic/barf-project) | Binary analysis and reverse engineering framework for python
 |                         | Static Analysis | ⭐ [Code Beautifier](https://beautifier.io/) | Add indents and stuff to obfuscated code
+|                         | Unpackers | UPX | Most common unpacker
+|                         | Unpackers | Armadillo, FSG, Themida | Other more complex unpackers
 |                         | Executables | [Binary Ninja](https://cloud.binary.ninja/) | Binary analysis in the cloud
 |                         | Executables | ⭐ [angr](https://github.com/angr/angr) | Binary analysis framework
 |                         | Executables | [dll_to_exe](https://github.com/hasherezade/dll_to_exe) | convert dlls to executables to pop into ida
