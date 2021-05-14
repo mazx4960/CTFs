@@ -46,7 +46,9 @@
 |               | Web | [SpiderMonkey](https://spidermonkey.dev/) | Javascript interpreter 
 |               | Web | [cscripts](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cscript) | Run javascript code in the commandline
 |               | Web | [V8](https://v8.dev/) | Javascript engine 
-|               | binwalk | Analyse hidden files
+|               | Files | binwalk | Analyse hidden files
+|               | Images | exiftool | Analyse the metadata in the files
+|               | Images | hachoir-urwid | Examining the file structure of a JPEG file
 |               | PDF | Foxit Reader | For dynamically analyzing pdf files, and looking at the behaviour of the pdf
 |               | PDF | [pdfid.py](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdfid.py) | To view the pdf structure and other static analysis
 |               | PDF | [pdf-parser.py](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdf-parser.py) | To examine pdf objects
