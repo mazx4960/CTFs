@@ -21,7 +21,10 @@
 ## Tools used
 **Set up:**
 * Flare VM
+* Remnux
 * Kali linux
+
+<img src="https://linuxhint.com/wp-content/uploads/2020/09/word-image-505.png">
 
 | Category | Sub Category | Tool | Description |
 | :------- | :----------- | :--- | :---------- |
